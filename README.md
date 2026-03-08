@@ -7,7 +7,7 @@ _read about javascript and revise about it_
 - This article attempts to list the built-in data structures available in JavaScript and what properties they have. … The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. … JavaScript Data Structures and Algorithms by Oleksii Trekhleb Computer Science in JavaScript by Nicholas C. Zakas
 - JavaScript has eight primary data types, which are categorized into two main groups:
 **primitive and non-primitive** (reference) types. JavaScript is a dynamically typed language, meaning variables can hold any data type, and you don't need to explicitly declare the type. 
-**Primitive Data Types**
+- **Primitive Data Types**
 Primitive types represent** single, simple, and immutable values.** There are seven primitive data types: 
 
     - **string**: Represents textual data and is enclosed in single quotes ('...'), double quotes ("..."), or backticks (`...`).
@@ -18,7 +18,7 @@ Primitive types represent** single, simple, and immutable values.** There are se
    ** null**: A special value that represents the intentional absence of any object value. It is a standalone type that has a single value null.
     **symbol**: Introduced in ES6, it represents a unique and immutable identifier, often used as an object property key to avoid naming conflicts. 
 
-**Non-Primitive Data Type**
+- **Non-Primitive Data Type**
 Non-primitive types, also known as reference types, are used to store collections of data and more complex entities. They are mutable and stored by reference in memory. 
     ** object:** The only non-primitive data type. Everything else in JavaScript (arrays, functions, dates, etc.) is a type of object.
        ** Arrays ([])**: A special type of object for storing ordered collections of data, accessible by index.
